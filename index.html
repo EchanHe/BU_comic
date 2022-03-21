@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+  
   <style>
     .bgTextBox {
       background-color: rgb(241, 241, 241);
@@ -170,10 +171,41 @@
       border: 3px solid #18e7e7;
     }
   </style>
+
+
+
 </head>
 
 <body>
  
+    <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-md bgTextBox navbar-light alien">
+    <!-- Brand -->
+    <a class="navbar-brand alien" href="index.html"><img src="img/icon.png" alt="logo" style="width:40px;"> Story Teller
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="code.html">code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
   <div id="overlay">
     <!-- <div id="face_choicer_body">   -->
       
@@ -191,7 +223,7 @@
     </div>
 
 
-    <div id="face_choicer_left" >
+    <div id="face_choicer_left">
       <button onclick="move_eye(false)" style="position: absolute; float: right;left:0%; top:20%;">
         Prev eye
       </button>  
@@ -212,33 +244,6 @@
       
   </div>
 
-
-    <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-md bgTextBox navbar-light alien">
-      <!-- Brand -->
-      <a class="navbar-brand alien" href="index.html"><img src="img/icon.png" alt="logo" style="width:40px;"> Story Teller
-      </a>
-  
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index2.html">Story</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="code.html">code</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">about</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
   <div id = "setting_panel">
 
@@ -292,7 +297,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/script_2.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/config.js"></script>
 
 
