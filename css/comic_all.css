@@ -758,8 +758,15 @@ opacity: 50%;
 
     /* size of the choices (bg and char) */
     .choice_img{
+      height: 120px;
+      width: 120px;
+    }
+
+    .choice_canvas{
       height: 100px;
       width: 100px;
+      padding:0px 5px;
+      /* border: 3px solid #f10ce6; */
     }
 
     /* Div for prev eye and mouth */
