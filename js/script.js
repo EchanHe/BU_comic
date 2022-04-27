@@ -708,7 +708,7 @@ function draw_dialog(context, dialog, text, bubble_key){
     if(bubble_key=='large'){
         n_char_per_line = 25;
     }else if(bubble_key=='medium'){
-        n_char_per_line = 15;
+        n_char_per_line = 17;
     }else if(bubble_key=='long'){
         n_char_per_line = 60;
     }else if(bubble_key=='small'){
