@@ -759,7 +759,7 @@ function build_structure_string(structure_array){
 }
 
 async function get_recommendation(text,structure){
-    let url = "http://128.199.57.220/comic"
+    let url = "http://128.199.57.220/api/comic"
     // let url = "http://127.0.0.1:5000/comic";
     const response = await fetch(url,{
         method:"POST",
