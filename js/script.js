@@ -954,7 +954,15 @@ function calculateAspectRatio(srcWidth, srcHeight, maxWidth, maxHeight) {
     }else{
         var canvas = document.getElementById("canvas");
         var img    = canvas.toDataURL("image/png");
-        document.write('<img src="'+img+'" crossorigin="anonymous"/ >');
+        // document.write('<img src="'+img+'" crossorigin="anonymous"/ >');
+        img = img.replace(/^data:image\/[^;]*/, 'data:application/octet-stream');
+        img = img.replace(/^data:application\/octet-stream/, 'data:application/octet-stream;headers=Content-Disposition%3A%20attachment%3B%20filename=Comic.png');
+        const a = document.createElement('a');
+        a.href = img;
+        a.download = "comic.png";
+        document.body.appendChild(a);
+        a.click()
+        document.body.removeChild(a);
     }
     
 
