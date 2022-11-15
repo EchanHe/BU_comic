@@ -711,6 +711,18 @@ var config ={
       "filename": "bg4.png",
       "width": 1175,
       "height": 1035,
+    },
+    "5":{
+      "subfolder":"backdrops/",
+      "filename": "bg5.png",
+      "width":1425,
+      "height": 1035,
+    },
+    "6":{
+      "subfolder":"backdrops/",
+      "filename": "bg6.png",
+      "width":1618,
+      "height": 1035,
     }
   },
 
