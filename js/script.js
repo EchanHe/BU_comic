@@ -3,7 +3,6 @@ var id_eye = 0;
 var id_mouth = 0;
 var bool_draw_face
 
-
 function loadpage_home(){
     // config = JSON.parse("config2.json");
     // config =require("config2.json");
